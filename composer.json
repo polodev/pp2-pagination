@@ -11,7 +11,7 @@
         "models"
       ],
       "files": [
-        "core/db.php"
+        "core/boot.php"
       ]
     }
 }
