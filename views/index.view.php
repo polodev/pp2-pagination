@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Posts</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css"/>
-</head>
-<body class="bg-info">
+<?php require 'partials/header.php'; ?>
   <div class="container">
-        <h2 class="text-center text-light mt-5">List of cities</h2>
+        <h2 class="text-center mt-5">List of cities</h2>
         <?php foreach($cities as $city): ?>
 
           <div class="card mt-4">
@@ -29,7 +22,4 @@
           </div>
         <?php endforeach; ?>
       </div>
-      
-
-</body>
-</html>
+<?php require 'partials/footer.php'; ?>
